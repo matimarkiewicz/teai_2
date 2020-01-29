@@ -40,7 +40,7 @@ public class ShopStart implements Shop {
 
     @Override
     public String getShopInfo() {
-        return "Products in bag: " + shopBag.getProducts() + " Cost (netto): " + shopBag.getCost() + "zł.";
+        return "Products in bag: " + shopBag.getProducts() + "<br><br> Cost (netto): " + shopBag.getCost() + "zł.";
     }
 
     public double getCostInfo() {

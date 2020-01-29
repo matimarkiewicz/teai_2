@@ -31,6 +31,6 @@ public class ShopPlus extends ShopStart {
 
     @Override
     public String getShopInfo() {
-        return super.getShopInfo() + System.lineSeparator() + " Cost with TaxVAT: " + getValueWithTax() + "zł.";
+        return super.getShopInfo() + System.lineSeparator() + "<br><br> Cost with TaxVAT: " + getValueWithTax() + "zł.";
     }
 }

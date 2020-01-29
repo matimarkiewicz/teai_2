@@ -32,6 +32,6 @@ public class ShopPro extends ShopPlus {
 
     @Override
     public String getShopInfo() {
-        return super.getShopInfo() + " Cost after discount: " + getCostWithDiscount() + "zł.";
+        return super.getShopInfo() + "<br><br> Cost after discount: " + getCostWithDiscount() + "zł.";
     }
 }
