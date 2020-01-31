@@ -32,25 +32,15 @@ public class ShopProductService {
 
     private void createShopShelfProducts() {
 
-        ShopProduct product1 = new ShopProduct("Buraki", randomPrice());
-        ShopProduct product2 = new ShopProduct("Marchew", randomPrice());
-        ShopProduct product3 = new ShopProduct("Pietruszka", randomPrice());
-        ShopProduct product4 = new ShopProduct("Por", randomPrice());
-        ShopProduct product5 = new ShopProduct("Seler", randomPrice());
-        ShopProduct product6 = new ShopProduct("Kabaczek", randomPrice());
-        ShopProduct product7 = new ShopProduct("Rzodkiew", randomPrice());
-        ShopProduct product8 = new ShopProduct("Oregano", randomPrice());
-        ShopProduct product9 = new ShopProduct("Pomidor", randomPrice());
-
-        shopProductList.add(product1);
-        shopProductList.add(product2);
-        shopProductList.add(product3);
-        shopProductList.add(product4);
-        shopProductList.add(product5);
-        shopProductList.add(product6);
-        shopProductList.add(product7);
-        shopProductList.add(product8);
-        shopProductList.add(product9);
+        shopProductList.add(new ShopProduct("Buraki", randomPrice()));
+        shopProductList.add(new ShopProduct("Marchew", randomPrice()));
+        shopProductList.add(new ShopProduct("Pietruszka", randomPrice()));
+        shopProductList.add(new ShopProduct("Por", randomPrice()));
+        shopProductList.add(new ShopProduct("Seler", randomPrice()));
+        shopProductList.add(new ShopProduct("Kabaczek", randomPrice()));
+        shopProductList.add(new ShopProduct("Rzodkiew", randomPrice()));
+        shopProductList.add(new ShopProduct("Oregano", randomPrice()));
+        shopProductList.add(new ShopProduct("Pomidor", randomPrice()));
     }
 
     public List<ShopProduct> getShopProducts() {
